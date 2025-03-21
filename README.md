@@ -1,5 +1,5 @@
 ### study-of-basic-gates
-
+## Date : 14/3/25
 **AIM:** 
 
 To study and verify the truth table of logic gates in Quartus II using Verilog programming.
@@ -65,15 +65,47 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+module ex1 (a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output  y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+nand(y4,a,b);
+nor(y5,a,b);
+xor(y6,a,b);
+xnor(y7,a,b);
+endmodule
 
- Developed by: RegisterNumber: 
+ Developed by: V.B.Laksha
+ RegisterNumber: 212224220051
  
 **Logic symbol & Truthtable**
+AND gate
+![Screenshot 2025-03-21 091858](https://github.com/user-attachments/assets/041cae18-a290-4b6e-a890-21fd2a924c5a)
+OR gate
+![Screenshot 2025-03-21 092011](https://github.com/user-attachments/assets/1bf0b1e1-587b-414f-af63-557b95ba6325)
+NOT gate
+![Screenshot 2025-03-21 092029](https://github.com/user-attachments/assets/d92b4680-e284-4e11-8761-c2c3b380a96c)
+NAND gate
+![Screenshot 2025-03-21 092220](https://github.com/user-attachments/assets/5dbd5aeb-84a4-45b7-b0dd-944251ac526e)
+
+NOR gate
+![Screenshot 2025-03-21 092158](https://github.com/user-attachments/assets/87c8bdb8-c935-44de-8dd9-95d8ebd6f5bf)
+
+XOR gate
+![Screenshot 2025-03-21 092238](https://github.com/user-attachments/assets/dc85f1c9-4854-44fd-a74a-68dc6a7bba06)
+XNOR gate
+![Screenshot 2025-03-21 092257](https://github.com/user-attachments/assets/b83e2ba8-2f90-4641-9273-b6441abada8e)
 
 **RTL realization Output:** 
 
+![Screenshot (38)](https://github.com/user-attachments/assets/1dabbc74-621a-4183-9477-2a9271b9e571)
+
 **RTL**
+![Screenshot (40)](https://github.com/user-attachments/assets/5f2df3f5-4ba7-4458-986b-28d437d2356d)
 
 **Result:**
+Thus the Basic digital ICs and the verification of truth tables for different logic gates were studied and successfully realized using Verilog.
 
 
