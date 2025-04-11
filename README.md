@@ -78,6 +78,7 @@ xnor(y7,a,b);
 endmodule
 
  Developed by: V.B.Laksha
+ 
  RegisterNumber: 212224220051
  
 **Logic symbol & Truthtable**
